@@ -20,7 +20,3 @@ function fareDoubler(number) {
 function fareTripler(numInput) {
   return createFareMultiplier(3)(numInput)
 }
-
-function selectDifferentDrivers(arrayOfDrivers, fn) {
-  return fn(arrayOfDrivers)
-}

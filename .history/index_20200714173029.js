@@ -21,6 +21,6 @@ function fareTripler(numInput) {
   return createFareMultiplier(3)(numInput)
 }
 
-function selectDifferentDrivers(arrayOfDrivers, fn) {
-  return fn(arrayOfDrivers)
+function selectDifferentDrivers(arrayOfDrivers, function) {
+  arrayOfDrivers.forEach(driver => function(driver))
 }
